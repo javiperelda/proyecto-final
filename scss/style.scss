@@ -30,7 +30,6 @@ body {
         #navbarNav {
             justify-content: center;
             font-size: 20px;
-            // @include font("Teko", 20px);
         }
     }
 }
@@ -43,7 +42,6 @@ body {
         @include font("Pacifico", 50px);
     }
     p {
-        // @include font("Teko", 25px);
         font-size: 25px;
         color: rgb(73, 71, 71);
     }
@@ -51,7 +49,6 @@ body {
 
 .presupuesto {
     margin-top: 50px;
-    // @include font("Teko", 25px);
     font-size: 25px;
     background-color: rgb(184, 76, 76);
     color: white;
@@ -83,7 +80,6 @@ body {
 
 .galeria-index {
     margin-top: 50px;
-    // @include font("Teko", 25px);
     font-size: 25px;
 }
 
@@ -100,13 +96,9 @@ body {
             @include font("Pacifico", 20px);
             padding-bottom: 10px;
         }
-        // p {
-        //     font-family: 'Teko';
-        // }
     }
 
     .columna-dos {
-        // font-family: "Teko";
         margin-bottom: 20px;
         .titulo {
             color: white;
@@ -126,7 +118,6 @@ body {
 
     .columna-tres {
         color: white;
-        // font-family: "Teko";
         margin-bottom: 5px;
         ul {
             padding-left: 10px;
@@ -147,7 +138,6 @@ body {
     }
 
     .columna-cuatro {
-        // font-family: "Teko";
         margin-bottom: 10px;
         a {
             padding-right: 5px;
@@ -172,7 +162,6 @@ body {
 
 .detalle-piePagina {
     color: white;
-    // @include font("Teko", 20px);
     font-size: 20px;
     background-color: black;
 }
@@ -197,7 +186,6 @@ body {
 // NOSOTROS
 
 .titulo-pagina {
-    // font-family: "Teko";
     color: white;
     background-color: black;
     margin-top: 110px;
@@ -205,7 +193,6 @@ body {
 }
 
 .titulo-nosotros {
-    // @include font("Teko", 50px);
     font-size: 50px;
     text-align: center;
     margin-top: 25px;
@@ -225,7 +212,6 @@ body {
     padding-bottom: 50px;
 
     .titulo-paso {
-        // font-size: "Teko";
         font-size: 25px;
         color: red;
     }
@@ -246,7 +232,6 @@ body {
                     color: white;
                     display: inline-block;
                     padding: 18px 44px;
-                    // @include font("Teko", 14px);
                     font-size: 14px;
                     font-weight: 400;
                     border: 1px solid white;
@@ -274,9 +259,6 @@ body {
     img {
         @include sizes(100%, 225px);
     }
-    // .card-body {
-    //     font-family: "Teko";
-    // }
 }
 
 // TRABAJOS
@@ -294,14 +276,12 @@ body {
 
 #container-contacto {
     .titulo-contacto {
-        // @include font("Teko", 30px);
         font-size: 30px;
         margin-top: 50px;
     }
 
     .col-md-6 {
         input {
-            // font-family: 'Teko';
             font-size: 20px;
         }
         #btn-contacto {
@@ -309,7 +289,6 @@ body {
             color: white;
             display: inline-block;
             padding: 18px 44px;
-            // @include font("Teko", 14px);
             font-size: 14px;
             font-weight: 400;
             border: 1px solid white;
@@ -331,5 +310,15 @@ body {
         ul {
             list-style: none;
         }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-img {
+        display: none;
+        visibility: hidden;
+    }
+    .detalle-empresa{
+        padding-top: 100px;
     }
 }
