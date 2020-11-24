@@ -81,6 +81,7 @@ body {
 .galeria-index {
     margin-top: 50px;
     font-size: 25px;
+    margin-left: 5px;
 }
 
 // FOOTER
@@ -314,11 +315,17 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    // CAOUSEL-INDEX
     .carousel-img {
         display: none;
         visibility: hidden;
     }
+    // TITULO-INDEX
     .detalle-empresa{
         padding-top: 100px;
+    }
+    // GALERIA-INDEX
+    .galeria-index{
+        margin-left: 0px;
     }
 }

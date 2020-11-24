@@ -54,7 +54,8 @@ body {
 
 .galeria-index {
   margin-top: 50px;
-  font-size: 25px; }
+  font-size: 25px;
+  margin-left: 5px; }
 
 .pie-pagina {
   background-color: #111;
@@ -229,4 +230,6 @@ body {
     display: none;
     visibility: hidden; }
   .detalle-empresa {
-    padding-top: 100px; } }
+    padding-top: 100px; }
+  .galeria-index {
+    margin-left: 0px; } }
