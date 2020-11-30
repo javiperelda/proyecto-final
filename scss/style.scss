@@ -336,7 +336,15 @@ body {
         display: inline-flex;
         justify-content: space-between;
         .logo {
-            width: 290px;
+            width: 250px;
+        }
+        .navbar-toggler{
+            
+            font-size: 10px;
+
+            .span{
+                padding-right: 5000px;
+            }
         }
         .navbar-nav{
             .li{

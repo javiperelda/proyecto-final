@@ -239,7 +239,11 @@ body {
     display: inline-flex;
     justify-content: space-between; }
     .header .logo {
-      width: 290px; }
+      width: 250px; }
+    .header .navbar-toggler {
+      font-size: 10px; }
+      .header .navbar-toggler .span {
+        padding-right: 5000px; }
     .header .navbar-nav .li {
       justify-content: center; }
   .titulo-pagina {
