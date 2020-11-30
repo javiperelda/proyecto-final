@@ -10,11 +10,14 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1000; }
-  .header nav {
+  .header #navbar-header {
     justify-content: flex-end; }
-    .header nav #navbarNav {
+    .header #navbar-header #navbarNav {
       justify-content: center;
       font-size: 20px; }
+    .header #navbar-header #logo-nav {
+      display: none;
+      visibility: hidden; }
 
 .detalle-empresa {
   margin-top: 50px;
@@ -235,17 +238,19 @@ body {
     padding-top: 120px; }
   .galeria-index {
     padding-left: 15px; }
-  .header {
-    display: inline-flex;
+  .header .logo {
+    display: none;
+    visibility: hidden; }
+  .header .navbar-toggler {
+    font-size: 8px;
+    width: auto;
+    height: auto; }
+  .header #navbar-header {
     justify-content: space-between; }
-    .header .logo {
-      width: 250px; }
-    .header .navbar-toggler {
-      font-size: 8px;
-      width: auto;
-      height: auto; }
-    .header .navbar-nav .nav-item {
-      justify-items: flex-start; }
+    .header #navbar-header #logo-nav {
+      display: inline;
+      visibility: visible;
+      width: 235px; }
   .titulo-pagina {
     margin-top: 0px;
     padding-top: 100px; }
