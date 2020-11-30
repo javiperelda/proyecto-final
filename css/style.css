@@ -58,7 +58,7 @@ body {
   padding-left: 50px; }
 
 .pie-pagina {
-  background-color: #1d1d1d;
+  background-color: #1e1e1e;
   margin-top: 100px;
   padding-bottom: 100px; }
   .pie-pagina .columna-uno {
@@ -241,11 +241,14 @@ body {
     .header .logo {
       width: 250px; }
     .header .navbar-toggler {
-      font-size: 10px; }
-      .header .navbar-toggler .span {
-        padding-right: 5000px; }
-    .header .navbar-nav .li {
-      justify-content: center; }
+      font-size: 8px;
+      width: auto;
+      height: auto; }
+    .header .navbar-nav .nav-item {
+      justify-items: flex-start; }
   .titulo-pagina {
     margin-top: 0px;
-    padding-top: 100px; } }
+    padding-top: 100px; }
+  .titulo-nosotros {
+    font-size: 35px;
+    padding-bottom: 30px; } }

@@ -87,7 +87,7 @@ body {
 // FOOTER
 
 .pie-pagina {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(30, 30, 30);
     margin-top: 100px;
     padding-bottom: 100px;
     .columna-uno {
@@ -340,15 +340,13 @@ body {
         }
         .navbar-toggler{
             
-            font-size: 10px;
-
-            .span{
-                padding-right: 5000px;
-            }
+            font-size: 8px;
+            width: auto;
+            height: auto;
         }
         .navbar-nav{
-            .li{
-                justify-content: center;
+            .nav-item {
+                justify-items: flex-start;
             }
         }
     }
@@ -356,5 +354,9 @@ body {
     .titulo-pagina{
         margin-top: 0px;
         padding-top: 100px;
+    }
+    .titulo-nosotros{
+        font-size: 35px;
+        padding-bottom: 30px;
     }
 }
