@@ -146,7 +146,8 @@ body {
 .titulo-nosotros {
   font-size: 50px;
   text-align: center;
-  margin-top: 25px; }
+  margin-top: 25px;
+  padding-bottom: 40px; }
 
 .pres-nosotros .col-md-6 {
   color: black;
@@ -230,7 +231,7 @@ body {
 #container-contacto .col-md-4 ul {
   list-style: none; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 991px) {
   .carousel-img {
     display: none;
     visibility: hidden; }
