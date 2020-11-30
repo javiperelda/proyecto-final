@@ -58,7 +58,7 @@ body {
   padding-left: 50px; }
 
 .pie-pagina {
-  background-color: #111;
+  background-color: #1d1d1d;
   margin-top: 100px;
   padding-bottom: 100px; }
   .pie-pagina .columna-uno {
@@ -189,6 +189,8 @@ body {
   .card-servicio img {
     height: 225px;
     width: 100%; }
+  .card-servicio p {
+    font-size: 20px; }
 
 #trabajos .col-md-3 {
   padding-top: 30px; }
@@ -225,11 +227,21 @@ body {
 #container-contacto .col-md-4 ul {
   list-style: none; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .carousel-img {
     display: none;
     visibility: hidden; }
   .detalle-empresa {
-    padding-top: 100px; }
+    padding-top: 120px; }
   .galeria-index {
-    padding-left: 15px; } }
+    padding-left: 15px; }
+  .header {
+    display: inline-flex;
+    justify-content: space-between; }
+    .header .logo {
+      width: 290px; }
+    .header .navbar-nav .li {
+      justify-content: center; }
+  .titulo-pagina {
+    margin-top: 0px;
+    padding-top: 100px; } }

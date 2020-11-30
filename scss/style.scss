@@ -87,7 +87,7 @@ body {
 // FOOTER
 
 .pie-pagina {
-    background-color: #111;
+    background-color: rgb(29, 29, 29);
     margin-top: 100px;
     padding-bottom: 100px;
     .columna-uno {
@@ -260,6 +260,9 @@ body {
     img {
         @include sizes(100%, 225px);
     }
+    p {
+        font-size: 20px;
+    }
 }
 
 // TRABAJOS
@@ -314,18 +317,36 @@ body {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     // CAOUSEL-INDEX
     .carousel-img {
         display: none;
         visibility: hidden;
     }
     // TITULO-INDEX
-    .detalle-empresa{
-        padding-top: 100px;
+    .detalle-empresa {
+        padding-top: 120px;
     }
     // GALERIA-INDEX
-    .galeria-index{
+    .galeria-index {
         padding-left: 15px;
+    }
+
+    .header {
+        display: inline-flex;
+        justify-content: space-between;
+        .logo {
+            width: 290px;
+        }
+        .navbar-nav{
+            .li{
+                justify-content: center;
+            }
+        }
+    }
+
+    .titulo-pagina{
+        margin-top: 0px;
+        padding-top: 100px;
     }
 }
