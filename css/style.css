@@ -227,7 +227,7 @@ body {
 #container-contacto .col-md-4 ul {
   list-style: none; }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .carousel-img {
     display: none;
     visibility: hidden; }
