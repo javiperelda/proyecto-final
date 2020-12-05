@@ -229,8 +229,13 @@ body {
   background-color: white;
   border: 1px solid black; }
 
-#container-contacto .col-md-4 ul {
-  list-style: none; }
+#container-contacto .col-md-4 {
+  font-size: 20px; }
+  #container-contacto .col-md-4 ul {
+    list-style: none; }
+  #container-contacto .col-md-4 p {
+    margin-top: 70px;
+    margin-left: 40px; }
 
 @media only screen and (max-width: 600px) {
   .carousel-img {
